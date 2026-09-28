@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "rows": 10,
+  "native_membership_checked": true,
+  "unique_alleles": 13,
+  "allele_checks": [
+    {
+      "identity": [
+        "chr10",
+        69315762,
+        "A",
+        "G"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr14",
+        94379487,
+        "CCT",
+        "C"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr14",
+        94379492,
+        "G",
+        "GAC"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr15",
+        40209701,
+        "T",
+        "G"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr15",
+        40220612,
+        "T",
+        "G"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr16",
+        84070041,
+        "A",
+        "G"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr22",
+        20996720,
+        "C",
+        "G"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr3",
+        10046723,
+        "AG",
+        "A"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr3",
+        10046725,
+        "TAAG",
+        "T"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr3",
+        48584547,
+        "C",
+        "T"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr4",
+        2827654,
+        "C",
+        "T"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chr6",
+        151842246,
+        "A",
+        "G"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    },
+    {
+      "identity": [
+        "chrX",
+        136874347,
+        "C",
+        "G"
+      ],
+      "exact_match": true,
+      "carried_alt": true,
+      "reference_match": true,
+      "explicit_pass": true,
+      "qc_fields_present": true
+    }
+  ],
+  "official_score_measured": false,
+  "limits": "Allele presence/QC is not confirmation of causality, phase or disease mechanism."
+}

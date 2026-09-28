@@ -1,0 +1,14 @@
+{
+  "version": "case-review-v1",
+  "method": "case-specific retrospective manual disease-context adjudication",
+  "primary_gene": "BUB1B",
+  "primary_mode": "AUTOSOMAL_RECESSIVE",
+  "primary_disease_ids": ["ORPHA:1052", "OMIM:257300"],
+  "excluded_gene": "BUB1B",
+  "excluded_mode": "AUTOSOMAL_DOMINANT",
+  "excluded_disease_id": "OMIM:114500",
+  "maximum_rows": 10,
+  "epcr_denominator": 11,
+  "missing_context": "retain in local audit; exclude from submitted shortlist, not a negative biological finding",
+  "scope": "This reproduces my case review; it is not a validated general-purpose model."
+}

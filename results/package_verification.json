@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "rows": 10,
+  "unique_alleles": 13,
+  "report_table_matches_csv": true,
+  "pdf_structure_markers_present": true,
+  "frozen_reviewed_csv_byte_identical": true,
+  "official_score_measured": false,
+  "repository_owner": "kaapra081",
+  "submitter": "kaavinp",
+  "method": "exomiser15-context-review",
+  "analysis_rerun_for_packaging": false
+}
