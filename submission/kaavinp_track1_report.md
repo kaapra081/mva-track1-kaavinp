@@ -103,7 +103,7 @@ Finally, this was a single-case analysis with retrospective manual review, not a
 
 # AI assistance
 
-I used OpenAI's ChatGPT Plus through OpenCode to help with coding, workflow review and writing. I had “Improve the model for everyone” turned off in ChatGPT. Annotation and ranking ran locally, and I checked biological statements against the recorded evidence.
+I used OpenAI's ChatGPT Plus through OpenCode for code development and debugging, workflow review, and drafting and editing this report. Exomiser performed variant annotation and prioritization locally; the final ranking also includes the case-specific review described above. My ChatGPT “Improve the model for everyone” setting was off.
 
 # Acknowledgement
 
