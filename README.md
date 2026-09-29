@@ -1,5 +1,7 @@
 # MVA Track 1 — kaavinp
 
+**Author: Kaavin Prasanna** · Hugging Face: `kaavinp`
+
 I used Exomiser 15.1.0 with GRCh38/2602 resources, followed by case-specific manual disease-context review, to prioritize candidate genotype hypotheses for the MVA Hackathon 2026.
 
 **Status:** local research submission package; not submitted and no official score measured. My primary hypothesis is an unphased BUB1B pair that includes a variant of uncertain significance. I do not claim a confirmed diagnosis, calibrated probabilities, or a validated general-purpose ranking improvement.
@@ -57,7 +59,7 @@ The code exports up to ten distinct allele-set hypotheses and canonical `chr` ch
 - `results/`: compact validation/provenance summaries without private paths or raw genotypes.
 - `docs/`: input requirements and reproducibility boundaries.
 
-For report rendering: `pandoc submission/kaavinp_track1_report.md --standalone --pdf-engine=xelatex -o submission/kaavinp_track1_report.pdf`.
+For report rendering: `pandoc submission/kaavinp_track1_report.md --from=markdown --standalone --pdf-engine=xelatex -o submission/kaavinp_track1_report.pdf`.
 
 ## Data access and acknowledgements
 

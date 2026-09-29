@@ -22,6 +22,8 @@ def main():
     args = parser.parse_args()
     rows, keys = validate_file(CSV)
     text = REPORT.read_text()
+    if 'author: "Kaavin Prasanna"' not in text:
+        raise ValueError('Report author does not match the requested display name')
     table = [line for line in text.splitlines() if re.match(r'^\| [0-9]+ \|', line)]
     if len(table) != len(rows):
         raise ValueError('Report candidate table size mismatch')
@@ -44,7 +46,7 @@ def main():
     receipt = {'status': 'PASS', 'rows': len(rows), 'unique_alleles': len(set().union(*keys)),
                'report_table_matches_csv': True, 'pdf_structure_markers_present': True,
                'frozen_reviewed_csv_byte_identical': comparison, 'official_score_measured': False,
-               'repository_owner': 'kaapra081', 'submitter': 'kaavinp',
+               'repository_owner': 'kaapra081', 'submitter': 'kaavinp', 'report_author': 'Kaavin Prasanna',
                'method': 'exomiser15-context-review', 'analysis_rerun_for_packaging': False}
     (ROOT / 'results/package_verification.json').write_text(json.dumps(receipt, indent=2)+'\n')
     files = []
